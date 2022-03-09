@@ -11,7 +11,7 @@ public class HeadsOrTails {
 		System.out.println("Heads or tails? ");
 		String headsOrTailsGuess = input.nextLine();
 		
-		System.out.println("How many time should we flip the coin? ");
+		System.out.println("How many times should we flip the coin? ");
 		int numberOfFlips = input.nextInt();
 		
 		for (int i = 0; i < numberOfFlips; i++) {
